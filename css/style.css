@@ -56,13 +56,60 @@ nav ul li a{
     color: black;
     padding: 0 30px;
 }
+nav ul li a:hover{
+    text-decoration: underline;
+    color: lightblue;
+}
 
 /* ----------------fine header---------------- */
 
 /*-----------------inizio main jumbotron----------------- */
+main{
+    height: 600px;
+}
+
 
 .container{
-    width: 1200px;
+    width: 1300px;
     margin: auto;
     border: 1px solid black;
+}
+
+main{
+    background-color: lightblue;
+}
+.jumbotron h1{
+    font-size: 80px;
+    padding: 25px 0;
+}
+
+.row .testo{
+    width: 40%;
+    font-size: 14px;
+    /* border: 1px solid rebeccapurple; */
+}
+
+.row .immagine{
+    width: 60%;
+    /* border: 1px solid rebeccapurple; */
+}
+
+.testo a{
+    display: inline-block;
+    margin: 10px 0;
+    text-decoration: none;
+}
+
+.testo .delete{
+    color: black;
+    background-color: none;
+}
+
+.testo .fas{
+    margin-top: 25px;
+    font-size: 40px;
+}
+
+.immagine img{
+    width: 1000px;
 }
