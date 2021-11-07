@@ -275,9 +275,72 @@ h2{
     font-size: 14px;
     margin: 25px 0;
 }
+/* ------------------------fine box-4---------------------- */
+
+/* ------------------inizio box-5----------------------- */
+.card{
+    width: 33.3%;
+}
+
+.card-right{
+    padding-left: 30px;
+}
+
+.card-center{
+    padding: 0 15px;
+}
+
+.card-left{
+    padding-right: 30px;
+}
 
 
+.col-img{
+    height: 300px;
+    background-size: cover;
+    background-position: center;
 
+}
+.col-img-1{
+    background-image: url("../img/business-feature-switching-tools.png");
+}
+.col-img-2{
+    background-image: url("../img/business-feature-coordinate-it.png");
+}
+.col-img-3{
+    background-image: url("../img/business-feature-multi-device.png");
+}
+.col-img-4{
+    background-image: url("../img/business-feature-integrations-it.png");
+}
+.col-img-5{
+    background-image: url("../img/business-feature-send-files-it.png");
+}
+.col-img-6{
+    background-image: url("../img/business-feature-security.png");
+}
 
+.content-card h2{
+    margin: 20px 0;
+}
 
+.box-5 h1{
+    margin-bottom: 50px;
+}
 
+.row-up{
+    margin-bottom: 100px;
+}
+.row-down{
+    margin-bottom: 100px;
+}
+
+/* ------------------inizio box-6----------------------- */
+.box-6 a{
+    margin: 30px 0;
+    display: inline-block;
+}
+
+section{
+    background-color: red;
+}
