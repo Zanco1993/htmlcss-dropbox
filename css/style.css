@@ -87,8 +87,8 @@ nav ul li a:hover{
 /* ----------------fine header---------------- */
 
 /*-----------------inizio main jumbotron----------------- */
-main{
-    height: 700px;
+
+.box-1{
     background-color: lightblue;
 }
 
@@ -414,6 +414,49 @@ h2{
 /* ---------------inizio box-7-------------- */
 .box-7{
     background-color: lightskyblue;
-    height: 300px;
     width: 100%;
+    display: inline-block;
+    height: 300px;
 }
+.content-text{
+    width: 50%;
+}
+.box-7 .fl h2{
+    font-size: 40px;
+    color: purple;
+    margin-top: 100px;
+}
+.prova-gratuita{
+    margin-top: 100px;
+}
+
+/* ---------------fine box-7-------------- */
+
+/* ---------------inizio box-8-------------- */
+
+.box-8{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.question p{
+    margin: 25px 0;
+    font-weight: bold;
+}
+.question hr{
+    border: 0.2px solid rgb(235, 235, 235);
+}
+
+.question h2{
+    margin-bottom: 50px;
+}
+.question p::after{
+    content: "\f078";
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    padding-left: 500px;
+}
+
+/* ----------------fine box-8------------------*/
+
+/* ----------------inizio footer------------------*/
+
