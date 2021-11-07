@@ -58,7 +58,7 @@ header{
 }
 
 .fl img{
-    padding: 10px 20px;
+    padding: 10px 0;
     vertical-align: middle;
 }
 nav{
@@ -111,11 +111,15 @@ nav ul li a:hover{
     width: 60%;
     /* border: 1px solid rebeccapurple; */
 }
+.fl.testo p{
+    font-size: 20px;
+}
 
 .testo a{
     display: inline-block;
     margin: 10px 0;
     text-decoration: none;
+    font-size: 20px;
 }
 
 .testo .delete{
@@ -194,13 +198,19 @@ nav ul li a:hover{
     content: "\f1ad";
     font-family: "Font Awesome 5 Free";
     font-weight: 400;
-    padding-right: 10px
+    padding-right: 10px;
 }
 
 .icon.user::before{
     content: "\f007";
     font-family: "Font Awesome 5 Free";
     font-weight: 400;
+    padding-right: 10px;
+}
+.icon.user-single::before{
+    content: "\f234";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
     padding-right: 10px;
 }
 .icon.space::before{
@@ -459,4 +469,50 @@ h2{
 /* ----------------fine box-8------------------*/
 
 /* ----------------inizio footer------------------*/
+.color-white{
+    color: white;
+}
 
+.legend{
+    width: 20%;
+    height: 400px;
+}
+.legend-1{
+    border-bottom: 1px solid lightgrey;
+}
+
+footer{
+    background-color: black;
+    height: 600px;
+}
+.box-9{
+    padding-top: 100px;
+}
+
+.fl.legend ul{
+    list-style: none;
+}
+.fl.legend ul li{
+    margin: 10px 0;
+}    
+.fl.legend ul li a{
+    text-decoration: none;
+}    
+.language{
+    color: white;
+    margin-top: 50px;
+}
+
+.language span::before{
+    content: "\f7a2";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+.language span::after{
+    content: "\f077";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+.language span{
+    color: rgb(181, 181, 181);
+}
