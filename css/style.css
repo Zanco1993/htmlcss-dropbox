@@ -13,7 +13,6 @@ body{
 }
 .container{
     margin: 0 auto;
-    border: 1px solid black;
 }
 
 .fl{
@@ -25,11 +24,22 @@ body{
 }
 
 .button{
-    background-color: rgb(0, 72, 255);
+    background-color: rgb(76, 126, 250);
     color: white;
     padding: 5px 15px;
     text-decoration: none;
 }
+.button-2{
+    color: rgb(39, 160, 252);
+}
+.button-3{
+    color: black;
+    padding: 5px 15px;
+    border: 1px solid black;
+    text-decoration: none;
+}
+
+
 /* -------------------utility---------------------- */
 
 /* inizio header */
@@ -116,10 +126,14 @@ main{
 
 /* -----------------fine jumbotron----------------- */
 
+/* -----------------box-2------------------ */
 
 .small-container{
     width: 1200px;
+    margin-top: 100px;
 }
+
+
 
 .box-2 h1{
     margin: 50px 0;
@@ -127,8 +141,6 @@ main{
 
 .plane{
     width: calc(33% - 20px);
-    border: 1px solid rebeccapurple;
-    height: 800px;
 }
 
 .plane.plane-central{
@@ -138,7 +150,6 @@ main{
     margin-bottom: 30px;
 }
 
-
 .type{
     border: 1px solid lightgray;
     text-align: center;
@@ -146,6 +157,7 @@ main{
 
 .description,.review-plane{
     padding: 20px;
+    border: 1px solid lightgrey;
 }
 .cost.info .cost{
     margin: 30px 0;
@@ -167,6 +179,20 @@ main{
 .icon{
     margin-bottom: 20px;
 }
+.type.single::before{
+    content: "\f007";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 400;
+    padding-right: 10px;
+}
+
+.type.team::before{
+    content: "\f1ad";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 400;
+    padding-right: 10px
+}
+
 .icon.user::before{
     content: "\f007";
     font-family: "Font Awesome 5 Free";
@@ -190,9 +216,6 @@ main{
     display: inline-block;
     margin-bottom: 30px;
 }
-.button-2{
-    color: rgb(39, 160, 252);
-}
 
 .review-plane ul{
     list-style: none;
@@ -208,6 +231,51 @@ main{
     font-weight: 900;
     padding-right: 5px;
 }
+
+/*-------------------fine box-2------------------- */
+
+/*-------------------inizio box-3------------------- */
+
+.box-left{
+    width: 70%;
+}
+
+.box-right{
+    width: 30%;
+}
+.fl.box-left h3{
+    margin: 30px 0;
+}
+.fl.box-right p{
+    text-align: center;
+}
+
+/*-------------------fine box-3------------------- */
+
+/*-------------------inizio box-4------------------- */
+
+.image-box-4{
+    width: 50%;
+}
+.text-meet-partner{
+    width: 50%;
+    padding: 30px 30px;
+}
+
+.image-box-4 img{
+    width: 100%;
+    padding: 0;
+}
+
+h2{
+    font-size: 30px;
+}
+
+.text-meet-partner p{
+    font-size: 14px;
+    margin: 25px 0;
+}
+
 
 
 
