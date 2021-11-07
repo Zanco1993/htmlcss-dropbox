@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
 }
 .row::after{
     content: "";
@@ -144,6 +144,72 @@ main{
     text-align: center;
 }
 
-.description{
+.description,.review-plane{
     padding: 20px;
 }
+.cost.info .cost{
+    margin: 30px 0;
+
+}
+.cost{
+    font-weight: bold;
+    margin-top: 10px;
+}
+.renewal{
+    font-size: 12px;
+    color: lightgrey;
+    margin-top: 10px;
+}
+
+.details{
+    margin: 30px 0;
+}
+.icon{
+    margin-bottom: 20px;
+}
+.icon.user::before{
+    content: "\f007";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 400;
+    padding-right: 10px;
+}
+.icon.space::before{
+    content: "\f07b";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 400;
+    padding-right: 10px;
+}
+.icon.function::before{
+    content: "\f304";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    padding-right: 10px;
+}
+
+.cost-info a{
+    display: inline-block;
+    margin-bottom: 30px;
+}
+.button-2{
+    color: rgb(39, 160, 252);
+}
+
+.review-plane ul{
+    list-style: none;
+}
+
+.review-plane ul li{
+    margin: 30px 0;
+}
+.review-plane ul li::before{
+    content: "\f00c";
+    color: #5797ff;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    padding-right: 5px;
+}
+
+
+
+
+
