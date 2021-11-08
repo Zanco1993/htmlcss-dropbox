@@ -452,6 +452,10 @@ nav ul li a:hover{
     margin: 80px 0;
 }
 
+.logo img{
+    filter: invert(100%);   
+}
+
 /* ---------------fine box-6-------------- */
 
 /* ---------------inizio box-7-------------- */
@@ -551,3 +555,5 @@ footer{
 .language span{
     color: rgb(181, 181, 181);
 }
+
+
