@@ -63,7 +63,6 @@ header{
 }
 nav{
     display: inline-block;
-    vertical-align: middle;
 }
 
 nav ul{
@@ -148,11 +147,11 @@ nav ul li a:hover{
 }
 
 .plane{
-    width: calc(33% - 20px);
+    width: calc(33.3% - 20px);
 }
 
 .plane.plane-central{
-    margin-left: 40px;
+    margin: 0 30px;
 }
 .checkbox{
     margin-bottom: 30px;
@@ -287,7 +286,7 @@ nav ul li a:hover{
     padding: 0;
 }
 
-h2{
+.text-meet-partner h2{
     font-size: 30px;
 }
 
@@ -361,7 +360,7 @@ h2{
     display: inline-block;
 }
 .logo-client{
-    width: 33%;
+    width: 33.3%;
     border: 2px solid black;
 }
 .logo{
