@@ -395,7 +395,6 @@ nav ul li a:hover{
 }
 .logo-client{
     width: 33.3%;
-    border: 2px solid black;
 }
 .logo{
     width: 50%;
@@ -424,17 +423,12 @@ nav ul li a:hover{
 .logo-8{
     background-color: rgb(255, 255, 64);
 }
-
-
 .logo img{
     width: 50%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-#color-logo{
-    fill: #1c87c9;
 }
 
 .description-client{
@@ -508,9 +502,6 @@ nav ul li a:hover{
 /* ----------------fine box-8------------------*/
 
 /* ----------------inizio footer------------------*/
-.color-white{
-    color: white;
-}
 
 .legend{
     width: 20%;
@@ -534,8 +525,9 @@ footer{
 .fl.legend ul li{
     margin: 10px 0;
 }    
-.fl.legend ul li a{
+.fl.legend ul li a,h2{
     text-decoration: none;
+    color: white;
 }    
 .language{
     color: white;
