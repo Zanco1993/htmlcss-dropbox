@@ -58,11 +58,12 @@ header{
 }
 
 .fl img{
-    padding: 10px 0;
     vertical-align: middle;
 }
 nav{
     display: inline-block;
+    height: 80px;
+    line-height: 80px;
 }
 
 nav ul{
@@ -89,6 +90,8 @@ nav ul li a:hover{
 
 .box-1{
     background-color: lightblue;
+    height: 650px;
+    margin-bottom: 150px;
 }
 
 .big-container{
@@ -108,6 +111,7 @@ nav ul li a:hover{
 
 .row .immagine{
     width: 60%;
+    position: relative;
     /* border: 1px solid rebeccapurple; */
 }
 .fl.testo p{
@@ -132,7 +136,8 @@ nav ul li a:hover{
 }
 
 .immagine img{
-    width: 1000px;
+    width: 800px;
+    position:absolute
 }
 
 /* -----------------fine jumbotron----------------- */
@@ -186,6 +191,20 @@ nav ul li a:hover{
 .icon{
     margin-bottom: 20px;
 }
+
+.details ul{
+    list-style: none;
+}
+.details ul li{
+    position: relative;
+    padding-left: 25px;
+}
+.details ul li::before{
+    position: absolute;
+    top: 4px;
+    left: 0;
+}
+
 .type.single::before{
     content: "\f007";
     font-family: "Font Awesome 5 Free";
@@ -200,29 +219,32 @@ nav ul li a:hover{
     padding-right: 10px;
 }
 
+
+
 .icon.user::before{
     content: "\f007";
     font-family: "Font Awesome 5 Free";
     font-weight: 400;
-    padding-right: 10px;
+
 }
 .icon.user-single::before{
     content: "\f234";
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
-    padding-right: 10px;
+    padding-right: 5px;
+
 }
 .icon.space::before{
     content: "\f07b";
     font-family: "Font Awesome 5 Free";
     font-weight: 400;
-    padding-right: 10px;
+
 }
 .icon.function::before{
     content: "\f304";
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
-    padding-right: 10px;
+
 }
 
 .cost-info a{
@@ -235,14 +257,26 @@ nav ul li a:hover{
 }
 
 .review-plane ul li{
-    margin: 30px 0;
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 25px;
 }
+
+.review-plane ul li::before{
+    position: absolute;
+    top: 4px;
+    left: 0;
+}
+
 .review-plane ul li::before{
     content: "\f00c";
     color: #5797ff;
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
-    padding-right: 5px;
+}
+
+.review-plane h2{
+    margin-bottom: 25px;
 }
 
 /*-------------------fine box-2------------------- */
@@ -424,19 +458,21 @@ nav ul li a:hover{
 .box-7{
     background-color: lightskyblue;
     width: 100%;
-    display: inline-block;
     height: 300px;
 }
 .content-text{
-    width: 50%;
+    width: 60%;
 }
+
 .box-7 .fl h2{
     font-size: 40px;
     color: purple;
-    margin-top: 100px;
 }
 .prova-gratuita{
-    margin-top: 100px;
+    width: 30%;
+}
+.row-padding{
+    padding: 100px 0;
 }
 
 /* ---------------fine box-7-------------- */
