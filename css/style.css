@@ -51,6 +51,10 @@ body{
     color: white;
 }
 
+.link-dropbox{
+    color: black;
+}
+
 /* -------------------utility---------------------- */
 
 /* inizio header */
@@ -170,9 +174,10 @@ nav ul li a:hover{
     text-align: center;
 }
 
-.description,.review-plane{
+.description{
     padding: 20px;
     border: 1px solid lightgrey;
+    height: 800px;
 }
 .cost.info .cost{
     margin: 30px 0;
@@ -222,8 +227,6 @@ nav ul li a:hover{
     padding-right: 10px;
 }
 
-
-
 .icon.user::before{
     content: "\f007";
     font-family: "Font Awesome 5 Free";
@@ -247,7 +250,11 @@ nav ul li a:hover{
     content: "\f304";
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
-
+}
+.icon.function-special::before{
+    content: "\f5b8";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 400;
 }
 
 .cost-info a{
@@ -291,7 +298,10 @@ nav ul li a:hover{
 .box-left{
     width: 70%;
 }
-
+.sales-support{
+    border: 1px solid lightgrey;
+    padding: 20px;
+}
 .box-right{
     width: 30%;
 }
@@ -328,52 +338,27 @@ nav ul li a:hover{
 }
 
 .text-meet-partner p{
-    font-size: 14px;
+    font-size: 16px;
     margin: 25px 0;
 }
 /* ------------------------fine box-4---------------------- */
 
 /* ------------------inizio box-5----------------------- */
-.card{
-    width: 33.3%;
+.fl.card{
+    width: calc(33.3% - 20px);
+    height: 650px;
 }
 
-.card-right{
-    padding-left: 30px;
+.card.card-central{
+    margin: 0 30px;
 }
-
-.card-center{
-    padding: 0 15px;
-}
-
-.card-left{
-    padding-right: 30px;
-}
-
 
 .col-img{
-    height: 300px;
-    background-size: cover;
-    background-position: center;
-
+    width: 100%;
+    
 }
-.col-img-1{
-    background-image: url("../img/business-feature-switching-tools.png");
-}
-.col-img-2{
-    background-image: url("../img/business-feature-coordinate-it.png");
-}
-.col-img-3{
-    background-image: url("../img/business-feature-multi-device.png");
-}
-.col-img-4{
-    background-image: url("../img/business-feature-integrations-it.png");
-}
-.col-img-5{
-    background-image: url("../img/business-feature-send-files-it.png");
-}
-.col-img-6{
-    background-image: url("../img/business-feature-security.png");
+.col-img img{
+    width: 100%;
 }
 
 .content-card h2{
@@ -384,12 +369,7 @@ nav ul li a:hover{
     margin-bottom: 50px;
 }
 
-.row-up{
-    margin-bottom: 50px;
-}
-.row-down{
-    margin-bottom: 100px;
-}
+
 
 /* ------------------inizio box-6----------------------- */
 .box-6 a{
