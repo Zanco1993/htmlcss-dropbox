@@ -429,6 +429,9 @@ nav ul li a:hover{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    filter: invert(100%);   
+    
+    
 }
 
 .description-client{
@@ -446,9 +449,6 @@ nav ul li a:hover{
     margin: 80px 0;
 }
 
-.logo img{
-    filter: invert(100%);   
-}
 
 /* ---------------fine box-6-------------- */
 
@@ -457,6 +457,7 @@ nav ul li a:hover{
     background-color: lightskyblue;
     width: 100%;
     height: 300px;
+    line-height: 300px;
 }
 .content-text{
     width: 60%;
@@ -470,7 +471,7 @@ nav ul li a:hover{
     width: 30%;
 }
 .row-padding{
-    padding: 100px 0;
+    padding: 10px 0;
 }
 
 /* ---------------fine box-7-------------- */
