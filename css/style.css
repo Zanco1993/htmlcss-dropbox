@@ -47,6 +47,9 @@ body{
     color: black;
     background-color: white;
 }
+.color-white{
+    color: white;
+}
 
 /* -------------------utility---------------------- */
 
@@ -455,24 +458,20 @@ nav ul li a:hover{
 /* ---------------inizio box-7-------------- */
 .box-7{
     background-color: lightskyblue;
-    width: 100%;
     height: 300px;
     line-height: 300px;
 }
-.content-text{
-    width: 60%;
+.box-7 .content-text{
+    text-align: center;
+    width: 70%;
 }
 
 .box-7 .fl h2{
     font-size: 40px;
     color: purple;
 }
-.prova-gratuita{
-    width: 30%;
-}
-.row-padding{
-    padding: 10px 0;
-}
+
+
 
 /* ---------------fine box-7-------------- */
 
@@ -489,8 +488,7 @@ nav ul li a:hover{
 .question hr{
     border: 0.2px solid rgb(235, 235, 235);
 }
-
-.question h2{
+.question h1{
     margin-bottom: 50px;
 }
 .question p::after{
@@ -508,6 +506,7 @@ nav ul li a:hover{
     width: 20%;
     height: 400px;
 }
+
 .legend-1{
     border-bottom: 1px solid lightgrey;
 }
@@ -526,7 +525,7 @@ footer{
 .fl.legend ul li{
     margin: 10px 0;
 }    
-.fl.legend ul li a,h2{
+.fl.legend ul li a{
     text-decoration: none;
     color: white;
 }    
@@ -548,5 +547,7 @@ footer{
 .language span{
     color: rgb(181, 181, 181);
 }
-
+.legend ul h2{
+    margin-bottom: 40px;
+}
 
