@@ -59,7 +59,7 @@ body{
 
 /* inizio header */
 
-
+/* 
 nav{
     height: 80px;
     line-height: 80px;
@@ -88,7 +88,39 @@ nav ul li a:hover{
 .content-logo img{
     vertical-align: middle;
     
+} */
+
+/* prova con flex */
+
+header{
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+nav{
+    display: flex;
+}
+.content-logo{
+    margin: 0 20px;
+}
+
+header li{
+    display: inline-block;
+    list-style: none;
+}
+header li a{
+    text-decoration: none;
+    color: black;
+    padding: 0 30px;
+}
+.login-area .button{
+    margin: 0 20px;
+}
+
+    
+
 /* ----------------fine header---------------- */
 
 /*-----------------inizio main jumbotron----------------- */
